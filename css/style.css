@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    min-height:  100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 249, 254);
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card1{
+    margin-right: 1.5rem;
+    border-radius:8px;
+    padding: 1.4rem;
+    width: 450px;
+    height: 230px;
+    background-color:blueviolet;
+    position: relative;
+
+}
+.cc{
+   z-index: 0;
+    position:absolute;
+    top: 0;
+    right: 0;
+    right:80px;
+}
+.cc img{
+    width: 90px;
+    
+}
+
+.icon{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.dani img{
+
+    width: 30px;
+    border:solid 1px rgb(168, 168, 168);
+    border-radius:20px;
+}
+.name{
+    margin-left:1rem
+}
+.name h2{
+    font-size: 0.6em;
+    font-weight: 700;
+    color: rgb(212, 210, 210);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name h3{
+    font-size: 0.5em;
+    font-weight: 800;
+    color: rgb(173, 173, 173);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.info{
+   position: relative;
+   z-index: 10;
+    margin-top: 0.3rem;
+    
+    color: rgb(241, 238, 238);
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inf{
+    
+    font-size: 0.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(181, 181, 181);
+    margin-top: 1rem;
+
+
+}
+
+.card2{
+    border-radius:8px;
+    padding: 1.4rem;
+    width: 210px;
+    height: 230px;
+    background-color:rgb(85, 96, 106);
+
+
+}
+
+
+.icon2{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.jona img{
+
+    width: 30px;
+    border:solid 1px rgb(168, 168, 168);
+    border-radius:20px;
+}
+.name2{
+    margin-left:1rem
+}
+.name2 h2{
+    font-size: 0.6em;
+    font-weight: 700;
+    color: rgb(212, 210, 210);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name2 h3{
+    font-size: 0.5em;
+    font-weight: 800;
+    color: rgb(173, 173, 173);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.info2{
+    margin-top: 0.3rem;
+     z-index: 2222;
+    color: rgb(241, 238, 238);
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inf3{
+    font-size: 0.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(181, 181, 181);
+    margin-top: 1rem;
+}
+
+
+
+.card3{
+    margin-top: 1.5rem;
+    border-radius:8px;
+    padding: 1.4rem;
+    width: 200px;
+    height: 230px;
+    background-color:rgb(255, 255, 255);
+
+
+}
+
+
+.icon3{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.jeatn img{
+
+    width: 30px;
+    border:solid 1px rgb(168, 168, 168);
+    border-radius:20px;
+}
+.name3{
+    margin-left:1rem
+}
+.name3 h2{
+    font-size: 0.6em;
+    font-weight: 700;
+    color: rgb(212, 210, 210);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name3 h3{
+    font-size: 0.5em;
+    font-weight: 800;
+    color: rgb(173, 173, 173);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.info3{
+    margin-top: 0.3rem;
+     z-index: 2222;
+    color: rgb(45, 45, 45);
+    font-size: 0.9em;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inf4{
+    font-size: 0.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(181, 181, 181);
+    margin-top: 1rem;
+}
+.bb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card4{
+    margin-top: 1.4rem;
+    margin-left: 1.5rem;
+    border-radius:8px;
+    padding: 1.4rem;
+    width: 450px;
+    height: 230px;
+    background-color:rgb(25, 25, 15);
+    
+
+}
+.icon4{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+
+.patri img{
+
+    width: 30px;
+    border:solid 1px rgb(168, 168, 168);
+    border-radius:20px;
+}
+.name4{
+    margin-left:1rem
+}
+.name4 h2{
+    font-size: 0.6em;
+    font-weight: 700;
+    color: rgb(212, 210, 210);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name4 h3{
+    font-size: 0.5em;
+    font-weight: 800;
+    color: rgb(173, 173, 173);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.info4{
+    margin-top: 0.3rem;
+     z-index: 2222;
+    color: rgb(241, 238, 238);
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inf5{
+    font-size: 0.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(181, 181, 181);
+    margin-top: 1rem;
+
+
+}
+.card5{
+    margin-left: 1.5rem;
+    border-radius:8px;
+    padding: 1.4rem;
+    width: 200px;
+    height: 500px;
+    background-color:rgb(255, 255, 255);
+
+
+}
+
+
+.icon5{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.kir img{
+
+    width: 30px;
+    border:solid 1px rgb(168, 168, 168);
+    border-radius:20px;
+}
+.name5{
+    margin-left:1rem
+}
+.name5 h2{
+    font-size: 0.6em;
+    font-weight: 700;
+    color: rgb(212, 210, 210);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name5 h3{
+    font-size: 0.5em;
+    font-weight: 800;
+    color: rgb(173, 173, 173);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.info5{
+    margin-top: 0.3rem;
+     z-index: 2222;
+     color: rgb(45, 45, 45);
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inf6{
+    font-size: 0.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(181, 181, 181);
+    margin-top: 1rem;
+}
+
+
+
+
